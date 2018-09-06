@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #ffffff;
+	font-family: sans-serif;
+	color: #1e2125;
+}
+header {
+	padding: 23px 17px 23px 10px;
+}
+header h3 {
+	font-size: 15px;
+	float: left;
+}
+header .menu {
+	float: right;
+}
+header ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 19px;
+}
+header a {
+	text-decoration: none;
+	color: #1e2125;
+	font-size: 11px;
+}
+header a:hover {
+	text-decoration: underline;
+}
+.active a {
+	padding: 7px 11px;
+	color: #006dfe;
+	background: #ffffff;
+	border: 1px solid #006dfe;
+	border-radius: 3px;
+}
+.active a:hover, #content .flex-container a:hover {
+	background: #006dfe;
+	color: #ffffff;
+	text-decoration: none;
+}
+.clearfix {
+	clear: both;
+}
+#wrapper {
+	width: 44%;
+	margin: 0 auto;
+}
+#content {
+	padding: 67px 0;
+	text-align: center;
+	border-bottom: 1px solid #d9dee2;
+}
+#content h1 {
+	font-size: 36px;
+}
+#content > p {
+	padding: 10px 52px 42px;
+	line-height: 1.5;
+}
+#content .flex-container, footer .flex-container  {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#content .flex-container > div {
+	width: 31%;
+	border: 1px solid #d8d8d8;
+	border-radius: 2px;
+	box-shadow: 0 0 4px #d8d8d8;
+}
+.flex-container .title {
+	background: #f7f7f7;
+	padding: 12px 0;
+	border-bottom: 1px solid #d8d8d8;
+}
+#content .flex-container h2 {
+	margin: 12px 0;
+}
+span {
+	font-size: 15px;
+	color: #606a72;
+}
+#content .flex-container p {
+	font-size: 11px;
+	line-height: 1.5;
+}
+#content .flex-container a {
+	padding: 7px 37px;
+	display: inline-block;
+	border: 1px solid #006dfe;
+	color: #006dfe;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 3px;
+	margin: 17px 0;
+}
+footer {
+	margin: 40px 0 120px 0;
+}
+footer img {
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+footer i, footer span {
+	font-size: 10px;
+	color: #656a72;
+}
+footer .left {
+	float: left;
+}
+footer .flex-container {
+	float: right;
+	width: 89%;
+	box-sizing: border-box;
+	padding: 0 15px 0 90px;
+}
+footer .flex-container > div {
+	width: 130px;
+}
+footer h3 {
+	font-size: 13px;
+}
+footer ul li {
+	list-style-type: none;
+}
+footer a {
+	text-decoration: none;
+	color: #606a72;
+	font-size: 10px;
+	line-height: 1.2;
+}
+footer a:hover {
+	text-decoration: underline;
+}
